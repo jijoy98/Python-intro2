@@ -1,12 +1,17 @@
-name=  input("what is your name?")
-print("hi there, " + name)
+name = input("What is your name?") #this is an input for a user to type
+print("Hi there, " + name) #it "prints" or shows text in the terminal
+#then it concatenates a string with the person's input
 print(name + " is a lovely name.")
-print("hi" + name + "! let me make sure your name is" + name +"?")
-email = input("what is your email?")
-nickname = input("what is your nickname?")
-address = input("what is your address?")
+print("Hi " + name + "! Let me make sure your name is " + name + "?")
 
-age= int=(input("please enter your age: "))
+email = input("What is your email?")
+nickname = input("What is your nickname?")
+address = input("What is your address?")
 
-password = input("what is your password?")
-check = input("what is your checkes?")
+age = int(input("Please enter your age: "))
+
+print("Wow " + name + "you are " + str(age)
+      + "!" + "I didn't know they made email for someone so old!"
+      + "Thanks for your email:"
+      + email + "and" + address
+      + "and your nickname: " + nickname)
