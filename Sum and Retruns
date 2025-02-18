@@ -1,10 +1,18 @@
+# Function to calculate the sum of numbers in a list
 def sum_of_numbers(numbers):
+    # Initialize a variable 'total' to store the sum, starting from 0
     total = 0
+    
+    # Loop through each number in the provided list
     for number in numbers:
+        # Add the current number to the total
         total += number
+    
+    # Return the final sum after the loop finishes
     return total
 
-# Example usage:
-numbers_list = [1, 2, 3, 4, 5]
-result = sum_of_numbers(numbers_list)
-print(f"The sum is: {result}")
+# Example usage of the function:
+numbers_list = [1, 2, 3, 4, 5]  # List of numbers to be summed
+result = sum_of_numbers(numbers_list)  # Call the function with the list
+print(f"The sum is: {result}")  # Output the result of the sum
+
