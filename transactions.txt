@@ -1,0 +1,4 @@
+Transaction:
+2          Banana          $0.99       x 2
+Total: $1.98
+
